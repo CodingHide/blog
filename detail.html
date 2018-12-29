@@ -1,0 +1,407 @@
+﻿<!doctype html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>LivingCoral主题演示站</title>
+    <link rel='stylesheet' href='static/css/tomorrow-night-eighties.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='static/css/pure-highlight.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='static/css/smartideo.css' type='text/css' media='screen' />
+    <link rel='stylesheet' href='static/css/iconfont.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='static/css/nicetheme.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='static/css/style.css' type='text/css' media='all' />
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var globals = {
+            "ajax_url": "",
+            "url_theme": "",
+            "site_url": ""
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='static/js/jquery.js'></script>
+    <script type='text/javascript' src='static/js/jquery-migrate.min.js'></script>
+</head>
+
+<body class="post-template-default single single-post single-format-standard">
+    <header class="header shadow-2x">
+        <div class="container">
+            <div class="row flex-fill justify-content-lg-center">
+                <div class="col-12 col-lg-9">
+                    <nav class="navbar navbar-expand-lg px-0 py-2 py-lg-3">
+                        <!-- brand -->
+                        <a href="" class="navbar-brand">
+                            <img src="static/picture/logo.png" alt="LivingCoral主题演示站">
+                        </a>
+                        <!-- / brand -->
+                        <!-- Navbar collapse -->
+                        <div class="collapse navbar-collapse order-2 order-lg-1">
+                            <ul class="navbar-nav mx-auto main-menu" data-nav>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="">首页</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a
+                                        href="">好书推荐</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="">随笔集</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="">随笔集</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="">随笔集</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="">Topics</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav navbar-menu sign-menu order-1 order-lg-2">
+                            <a href="javascript:" class="d-inline-block action-search action-sidebar"><i class="text-lg iconfont icon-search-outline"></i></a>
+                            <a href="javascript:" class="d-inline-block d-lg-none action-menu pl-4"><i class="text-lg iconfont icon-menu-outline"></i></a>
+                        </div>
+                    </nav>
+
+                    <!-- 面包屑导航 -->
+                    <div class="breadcrumbs text-xs border-top py-3 d-none d-md-block">
+                        <a href="" class="home">
+                            <span class="text-muted">首页</span>
+                        </a>
+                        <span class="sep text-muted"><i class="iconfont icon-arrow-ios-forward-ou mx-1"></i></span>
+                        <a href="" class="home">
+                            <span class="text-muted">首页</span>
+                        </a>
+                        <span class="sep text-muted"><i class="iconfont icon-arrow-ios-forward-ou mx-1"></i></span>
+                        <span class="current">探一方秘境，坠入一片深蓝——ROTA岛行程回顾</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mobile-navbar">
+        <div class="mobile-menu p-4 p-md-5">
+            <a class="action-menu btn btn-light px-2 mb-4"><i class="text-lg iconfont icon-close-outline"></i></a>
+            <ul class="navbar-nav">
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home"><a href="">首页</a></li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children"><a href="">生活美学</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="">美妙生活研究所</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sidebar-collapse">
+        <aside class="sidebar p-4 p-md-5">
+            <a href="javascript:" class="action-search btn btn-light px-2 mb-4"><i class="text-lg iconfont icon-close-outline"></i></a>
+            <div class="widget widget-search mb-5">
+                <div class="widget-title h6 mb-4">
+                    <span class="nice-b-line">搜索</span>
+                    <small class="count">(0)</small>
+                </div>
+                <div class="widget-content">
+                    <div class="search-input form-group mb-4">
+                        <input type="text" placeholder="请输入搜索关键词" class="form-control" value="">
+                        <button class="btn" type="button"><i class="iconfont icon-search-outline"></i></button>
+                    </div>
+
+                    <div class="search-result">
+                        <ul></ul>
+                        <div class="loadmore text-sm mt-3" style="display: none"><a href="#" class="text-muted">加载更多...</a></div>
+                    </div>
+                </div>
+            </div>
+            <div id="recent-posts-2" class="widget widget_recent_entries mb-5">
+                <div class="widget-title h6 mb-4"><span class="nice-b-line">近期文章</span></div>
+                <ul>
+                    <li>
+                        <a href="">佛山街上的深夜食堂，都市夜归人的灵魂居所——夜访佛山街上胜町炭火铁板居酒屋</a>
+                        <span class="post-date">2018年12月28日</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="media_image-2" class="widget widget_media_image mb-5">
+                <a href="">
+                    <img width="750" height="150" src="static/picture/adv-750-150.png" class="image attachment-full size-full"
+                        alt="" style="max-width: 100%; height: auto;" />
+                </a>
+            </div>
+            <div id="tag_cloud-2" class="widget widget_tag_cloud mb-5">
+                <div class="widget-title h6 mb-4"><span class="nice-b-line">标签</span></div>
+                <div class="tagcloud">
+                    <a href="" class="tag-cloud-link">三亚</a>
+                    <a href="" class="tag-cloud-link">三亚</a>
+                    <a href="" class="tag-cloud-link">三亚</a>
+                    <a href="" class="tag-cloud-link">三亚</a>
+                    <a href="" class="tag-cloud-link">三亚</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <div class="bg-overlay"></div>
+    <main class="py-4 py-lg-5">
+        <div class="container">
+            <div class="row justify-content-lg-center">
+                <div class="col-12 col-lg-9">
+                    <section class="post-header py-4">
+                        <h1 class="title h3 font-weight-bold font-theme">探一方秘境，坠入一片深蓝——ROTA岛行程回顾</h1>
+                        <div class="meta text-sm text-muted mt-4">
+                            <span class="d-inline-block">
+                                <a href="" target="_blank" class=" text-muted">美妙生活研究所</a>
+                            </span>
+                            <i class="text-primary px-2">&bull;</i>
+                            <span class="d-inline-block pr-3">2018-12-28</span>
+                        </div>
+                        <!-- .page-header -->
+                    </section>
+                    <section class="position-relative">
+                        <div class="">
+                            <div class="post-social d-none d-lg-block">
+                                <div class="theiaStickySidebar">
+                                    <ul class="my-n2">
+                                        <li class="py-2"><span class="text-muted"><i class="iconfont icon-navigation-outline2"></i></span></li>
+                                        <li class="py-2"><a href="" target="_blank" class="btn btn-light w-40 px-0 qq"><i
+                                                    class="iconfont icon-qq"></i></a></li>
+                                        <li class="py-2"><a href="" target="_blank" class="btn btn-light w-40 px-0 weibo"><i
+                                                    class="iconfont icon-weibo"></i></a></li>
+                                        <li class="py-2"><a href="javascript:" data-img="" target="_blank" class="btn btn-light w-40 px-0 single-weixin weixin"><i
+                                                    class="iconfont icon-weixin"></i></a></li>
+                                        <li class="py-2"><a href="#comments" class="btn btn-light w-40 px-0"><i class="iconfont icon-message-circle-outli1"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post item item-regular type-post status-publish format-standard hentry category-meimiao special-rzcs">
+                            <div class="content-style content">
+                                内容
+                                内容<br>
+                                内容<br>
+                                内容<br>
+                                内容<br>
+                                内容<br>
+                                <div class="post-tags mt-4">
+                                    <a href="">世界</a>
+                                    <a href="">世界</a>
+                                </div>
+                            </div>
+                            <div class="post-action text-center mt-4 mt-lg-5">
+                                <a href="javascript:" data-action="like" data-id="" class="post-like btn btn-primary">
+                                    <i class="text-lg iconfont icon-ziyuanjk"></i> 赞<small class="like-count">(1)</small>
+                                </a>
+                            </div>
+
+                            <!-- 手机端分享 -->
+                            <div class="d-block d-lg-none post-share text-center mt-4 mt-lg-5">
+                                <ul>
+                                    <li class="d-inline-block px-2">
+                                        <a href="" class="btn btn-light qq w-40 px-0 rounded-circle">
+                                            <i class="iconfont icon-qq"></i>
+                                        </a>
+                                    </li>
+                                    <li class="d-inline-block px-2"><a href="" class="btn btn-light weibo w-40  px-0 rounded-circle"><i
+                                                class="iconfont icon-weibo"></i></a></li>
+                                    <li class="d-inline-block px-2">
+                                        <a href="javascript:" data-img="" class="btn btn-light weixin w-40 px-0 single-weixin rounded-circle">
+                                            <i class="iconfont icon-weixin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <div id="comments" class="nice-comments py-5">
+                        <div class="h5 mb-4"><i class="text-xl text-primary iconfont icon-message-circle-outli pr-2"></i>评论
+                            <small class="font-theme text-sm">(0)</small></div>
+                        <div id="respond" class="comment-respond">
+
+                            <form method="post" action="" id="commentform" class="comment-form">
+                                <div class="d-flex w-100">
+                                    <div class="d-flex flex-shrink-0 mr-3 comment-avatar-author">
+                                        <img src='static/picture/38bdc83675dc4c7bbb5b69f65a91f523.gif' class='avatar avatar-50 photo avatar-default'
+                                            height='50' width='50' />
+                                    </div>
+                                    <div class="flex-fill comment-from-author">
+                                        <div class="comment-form-info mb-2">
+                                            <div class="form-group comment-form-author mb-3">
+                                                <input class="form-control text-sm" placeholder="昵称" name="author" type="text"
+                                                    value="" required="required">
+                                            </div>
+                                            <div class="form-group comment-form-email mb-3">
+                                                <input class="form-control text-sm" placeholder="邮箱" name="email" type="email"
+                                                    value="" required="required">
+                                            </div>
+                                            <div class="form-group comment-form-url mb-3">
+                                                <input class="form-control text-sm" placeholder="网址" name="url" type="url"
+                                                    value="">
+                                            </div>
+                                        </div>
+                                        <div class="comment-form-text">
+                                            <div class="form-group comment-textarea">
+                                                <textarea name="comment" class="form-control form-control-sm bg-light"
+                                                    rows="3"></textarea>
+                                            </div>
+                                            <div class="form-submit text-right">
+                                                <a rel="nofollow" id="cancel-comment-reply-link" style="display: none"
+                                                    class="btn btn-light text-sm mr-1" href="javascript:;">再想想</a>
+                                                <input name="submit" type="submit" id="submit" class="btn btn-primary text-sm"
+                                                    value="发表评论">
+                                                <input type='hidden' name='comment_post_ID' value='' />
+                                                <input type='hidden' name='comment_parent' value='0' />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <ul class="comment-list">
+                            <li class="comment odd alt thread-odd thread-alt depth-1">
+                                <article class="d-flex flex-fill comment-body mt-4">
+                                    <div class="d-flex flex-shrink-0 mr-3 comment-avatar-author vcard">
+                                        <img src='static/picture/ffabcbb71a8c4f82b9006dcf889067aa.gif' class='avatar avatar-50 photo'
+                                            height='50' width='50' />
+                                    </div><!-- .comment-author -->
+                                    <div class="flex-fill flex-column comment-text">
+                                        <div class="d-flex align-items-center comment-info mb-2">
+                                            <div class="comment-author text-sm">
+                                                <a href='http://www.zhiyuan.live' class='url'>志远有18CM</a>
+                                            </div>
+                                        </div>
+                                        <div class="comment-content d-inline-block text-sm bg-light p-2 rounded">
+                                            <p>广州红砖厂网红拍摄地，挺好看的</p>
+                                        </div><!-- .comment-content -->
+                                        <div class="text-xs text-muted pt-2">
+                                            <time class="comment-date">4分钟前</time>
+                                            <a class="comment-reply-link" onclick="return addComment.moveForm( 'comment-155','155', 'respond','4148' ) "
+                                                href="?replytocom=155#respond" class="text-secondary comment-reply-link"
+                                                rel="nofollow"><i class="fal fa-repeat"></i>
+                                                回复
+                                            </a>
+                                        </div>
+                                    </div><!-- .comment-text -->
+                                </article><!-- .comment-body -->
+                            </li>
+                            <li class="comment even thread-even depth-1">
+                                <article id="div-comment-156" class="d-flex flex-fill comment-body mt-4">
+                                    <div class="d-flex flex-shrink-0 mr-3 comment-avatar-author vcard">
+                                        <img src='static/picture/ffabcbb71a8c4f82b9006dcf889067aa.gif' class='avatar avatar-50 photo'
+                                            height='50' width='50' />
+                                    </div><!-- .comment-author -->
+                                    <div class="flex-fill flex-column comment-text">
+                                        <div class="d-flex align-items-center comment-info mb-2">
+                                            <div class="comment-author text-sm">
+                                                <a href='http://www.zhiyuan.live' class='url'>广州红砖厂创意园</a>
+                                            </div>
+                                        </div>
+                                        <div class="comment-content d-inline-block text-sm bg-light p-2 rounded">
+                                            <p>请注意，我的名字叫“红砖厂创意园”</p>
+                                        </div><!-- .comment-content -->
+                                        <div class="text-xs text-muted pt-2">
+                                            <time class="comment-date">3分钟前</time>
+                                            <a class="comment-reply-link" onclick="return addComment.moveForm( 'comment-156','156', 'respond','4148' ) "
+                                                href="?replytocom=156#respond" class="text-secondary comment-reply-link"
+                                                rel="nofollow"><i class="fal fa-repeat"></i>
+                                                回复
+                                            </a>
+                                        </div>
+                                    </div><!-- .comment-text -->
+                                </article><!-- .comment-body -->
+                                <ul class="children">
+                                    <li class="comment odd alt depth-2">
+                                        <article class="d-flex flex-fill comment-body mt-4">
+                                            <div class="d-flex flex-shrink-0 mr-3 comment-avatar-author vcard">
+                                                <img src='static/picture/ffabcbb71a8c4f82b9006dcf889067aa.gif' class='avatar avatar-50 photo' height='50' width='50' />
+                                            </div><!-- .comment-author -->
+                                            <div class="flex-fill flex-column comment-text">
+                                                <div class="d-flex align-items-center comment-info mb-2">
+                                                    <div class="comment-author text-sm">
+                                                        <a href='http://www.zhiyuan.live' class='url'>广州红砖厂创意园</a>
+                                                    </div>
+                                                </div>
+                                                <div class="comment-content d-inline-block text-sm bg-light p-2 rounded">
+                                                    <p>TIT创意园也是不错的选择哦</p>
+                                                </div><!-- .comment-content -->
+                                                <div class="text-xs text-muted pt-2">
+                                                    <time class="comment-date">2分钟前</time>
+                                                    <a class="comment-reply-link" onclick="return addComment.moveForm( 'comment-157','157', 'respond','4148' ) "
+                                                        href="?replytocom=157#respond" class="text-secondary comment-reply-link"
+                                                        rel="nofollow"><i class="fal fa-repeat"></i> 回复</a>
+                                                </div>
+                                            </div><!-- .comment-text -->
+                                        </article><!-- .comment-body -->
+                                    </li>
+                                </ul><!-- .children -->
+                            </li>
+                        </ul><!-- .comment-list -->
+                    </div>
+                    <!-- #comments -->
+
+                    <div class="related-list">
+                        <div class="h5 mb-4"><i class="text-xl text-primary iconfont icon-pricetags-outline pr-2"></i>您可能感兴趣的</div>
+                        <div class="post-list list-grid list-bordered my-n4">
+                            <div class="list-item block item-regular py-4 post type-post status-publish format-standard hentry category-meimiao special-shyjs">
+                                <div class="list-content py-lg-1">
+                                    <div class="list-body ">
+                                        <div class="h5 h-2x">
+                                            <a href="" class="list-title"> 画1小时的画，比看9小时书获得的东西还要多 </a>
+                                        </div>
+                                        <div class="d-none d-md-block text-sm text-secondary mt-3">
+                                            <div class="h-2x">
+                                                美的东西，总是让人们热衷去创造。可美，又不仅仅是“美丽”。不仅仅是一朵粉红色的小花绽放。不仅仅是繁杂到爆棚，让你眼花缭乱，大呼牛逼。美并不限于感官。如果一个事物的美，让你感动、让你心跳加快、让你闭上眼睛都无法忘记。
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-footer d-flex">
+                                        <div class="text-xs text-muted">
+                                            <span class="d-inline-block">
+                                                <a class="text-muted" href="" target="_blank">美妙生活研究所</a>
+                                            </span>
+                                            <i class="text-primary px-2">&bull;</i>
+                                            <span class="d-inline-block"> 2018-12-28</span>
+                                        </div>
+                                        <div class="ml-auto text-xs text-muted ">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media shadow col-3 col-lg-2">
+                                    <a href="" class="media-content" style="background-image:url('static/images/post-10.jpg')">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer bg-secondary py-5">
+        <div class="container">
+            <div class="row justify-content-lg-center">
+                <div class="col-12 col-lg-9">
+                    <div class="text-center text-sm text-light">
+                        © 2019-2018. All rights reserved. Developed by <a href="">NICETHEME</a>.
+                        <a href="http://www.miitbeian.gov.cn/" rel="external nofollow" target="_blank">粤ICP备18021772号</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a id="nice-back-to-top" href="#">
+        <span class="icon-stack">
+            <i class="iconfont icon-chevron-up-outline"></i>
+            <span class="back-to-top-text">Top</span>
+        </span>
+    </a>
+    <script type='text/javascript' src='static/js/highlight.pack.js'></script>
+    <script type='text/javascript' src='static/js/smartideo.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var nice_url = {
+            "single": "1"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='static/js/nicetheme.js'></script>
+    <script type='text/javascript' src='static/js/plugins.min.js'></script>
+    <script type='text/javascript' src='static/js/ajax-comment.js'></script>
+    <script type='text/javascript' src='static/js/theia-sticky-sidebar.min.js'></script>
+    <script type='text/javascript' src='static/js/resizesensor.min.js'></script>
+</body>
+
+</html>
